@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#2A2A2A]">
+
+
+
+    <div class="my-[70px] flex justify-center text-center">
+        <img class="block w-125 h-99" src="./images/DALL·E 2025-02-24 21.34.23 - A stylish and elegant logo with the text 'BLACKPINK MUSIC'. The design should be inspired by BLACKPINK's aesthetic, using a bold and modern font with .webp " alt="">
+    </div>
+
+    <form id="form" action="" class="w-[700px] bg-[#fff] p-[20px] mx-auto rounded flex justify-between ">
+        <input  id="input" class="outline-none" type="text" placeholder="Enter blackpink music name">
+        <select  class="bg-red-300" name="" id="select">
+            <option value="A-Z">A-Z</option>
+            <option value="Z-A">Z-A</option>
+        </select>
+        <button class="p-[10px] bg-red-300" type="submit">Search</button>
+    </form>
+    
+
+    <ul id="musicWrapper" class="flex flex-wrap gap-[20px] justify-between mt-[50px]">
+
+    </ul>
+    <script src="./music.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
